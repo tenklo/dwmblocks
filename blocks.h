@@ -12,6 +12,7 @@ static const Block blocks[] = {
 	{"  ",	"~/.local/src/dwm/dwmblocks/scripts/rootspace",	60,	18},
 	{"  ",	"~/.local/src/dwm/dwmblocks/scripts/homespace",	60,	17},
 	{"  ",	"~/.local/src/dwm/dwmblocks/scripts/battery",	30,	16},
+	{"",	"mousebattery",	30,	16},
 	{"  ",	"LANG=de_DE.utf8 date '+%a %d.%m.'",	                        60,	0},
 	{"  ",	"date '+%H:%M'",	                                60,	0},
 	//{"",	"date '+%d.%m.%Y (%a) %H %M %S'",	5,	0},
