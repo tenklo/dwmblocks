@@ -29,9 +29,10 @@ fi
 
 # If the wifi interface exists but no connection is active, "down" shall be displayed.
 if [[ "$(cat /sys/class/net/$INTERFACE/operstate)" = 'down' ]]; then
-    echo "down"
-    echo "down"
-    echo "#FF0000"
+    echo ""
+    # echo "down"
+    # echo "down"
+    # echo "#FF0000"
     exit
 fi
 
