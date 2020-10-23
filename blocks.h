@@ -4,11 +4,11 @@ static const Block blocks[] = {
 	{"",	"wetterstatus",	60,	0},
 	{"",	"orphans",	60,	0},
 	{" ",	"lockerstatus",	2,	69},
-	{"",	"~/.local/src/dwm/dwmblocks/scripts/wifi",	    5,	21},
-	{"",	"~/.local/src/dwm/dwmblocks/scripts/ssid",	    5,	20},
+	{"  ",	"~/.local/src/dwm/dwmblocks/scripts/wifi",	    5,	21},
+	/* {"",	"~/.local/src/dwm/dwmblocks/scripts/ssid",	    5,	20}, */
 	{"",	"vpnconnected",	2,	69},
 	{" 🎶 ",	"~/.local/src/dwm/dwmblocks/scripts/volume",	1,	19},
-	{"  ",   "xbacklight | sed 's/\\..*//'",				1,	11},
+	/* {"  ",   "xbacklight | sed 's/\\..*removethiswhenreactivating//'",				1,	11}, */
 	{"  ",	"~/.local/src/dwm/dwmblocks/scripts/rootspace",	60,	18},
 	{"  ",	"~/.local/src/dwm/dwmblocks/scripts/homespace",	60,	17},
 	{"  ",	"~/.local/src/dwm/dwmblocks/scripts/battery",	30,	16},
