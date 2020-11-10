@@ -1,3 +1,0 @@
-#!/bin/bash
-
-pidof deadbeef > /dev/null && deadbeef --nowplaying "%t%" 2>/dev/null
