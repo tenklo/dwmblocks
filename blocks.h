@@ -8,7 +8,7 @@ static const Block blocks[] = {
 	/* {"",	"~/.local/src/dwm/dwmblocks/scripts/ssid",	    5,	20}, */
 	{"",	"vpnconnected",	2,	69},
 	{" 🎶 ",	"~/.local/src/dwm/dwmblocks/scripts/volume",	1,	19},
-	{" 🎶 ",	"dbtitle",	1,	19},
+	{"",	"dbtitle dwb",	1,	19},
 	{"  ",   "xbacklight | sed 's/\\..*//'",				1,	11},
 	{"  ",	"~/.local/src/dwm/dwmblocks/scripts/rootspace",	60,	18},
 	{"  ",	"~/.local/src/dwm/dwmblocks/scripts/homespace",	60,	17},
