@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{" ",	    "lockerstatus",	2,	69},
 	{" 🎶 ",    "~/.local/src/dwm/dwmblocks/scripts/volume",	1,	19},
-	{"  ",     "xbacklight | sed 's/\\..*//'",				1,	11},
+	{"  ",       "xbacklight | sed 's/\\..*//'",				1,	11},
 	{"  ",	    "LANG=de_DE date '+%a %d.%m.'",	                        60,	0},
 	{"  ",	    "date '+%H:%M'",	                                15,	0},
 	{"",        "echo ';'",				1,	11},
@@ -16,7 +16,7 @@ static const Block blocks[] = {
 	/* {"   ",	    "~/.local/src/dwm/dwmblocks/scripts/rootspace",	60,	18}, */
 	/* {" ",	    "~/.local/src/dwm/dwmblocks/scripts/homespace",	60,	17}, */
 	{"",	    "mousebattery",	30,	16},
-	{"  ",	    "~/.local/src/dwm/dwmblocks/scripts/battery",	30,	16},
+	{"   ",	    "~/.local/src/dwm/dwmblocks/scripts/battery",	30,	16},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
