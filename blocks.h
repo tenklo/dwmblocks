@@ -8,7 +8,7 @@ static const Block blocks[] = {
 	/* {"",	    "wetterstatus",	60,	0}, */
 	/* {"",	    "dbtitle dwb",	1,	19}, */
 	{"",	    "wifibar",	    5,	21},
-	/* {"",	    "vpnconnected",	2,	69}, */
+	{"",	    "vpnconnected",	2,	69},
 	/* {"",	    "ssid",	    5,	20}, */
 	/* {"   ",	    "~/.local/src/dwmblocks/scripts/rootspace",	60,	18}, */
 	/* {" ",	    "~/.local/src/dwmblocks/scripts/homespace",	60,	17}, */
