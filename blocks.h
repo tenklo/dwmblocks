@@ -4,10 +4,10 @@ static const Block blocks[] = {
 	{"; ",	    "lockerstatus",	2,	69},
 	{"",	    "orphans stat",	60,	0},
 	{" 🎶 ",    "volume",	1,	19},
-	{"",     "sbrightness",				1,	11},
+	{"",        "sbrightness",				1,	11},
 	/* {"",	    "wetterstatus",	60,	0}, */
 	/* {"",	    "dbtitle dwb",	1,	19}, */
-	{"",	    "wifibar",	    5,	21},
+	{"",	    "internetinfo",	    2,	21},
 	{"",	    "vpnconnected",	2,	69},
 	/* {"",	    "ssid",	    5,	20}, */
 	/* {"   ",	    "~/.local/src/dwmblocks/scripts/rootspace",	60,	18}, */
