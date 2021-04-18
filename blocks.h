@@ -2,6 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"; ",	    "lockerstatus",	2,	69},
+	{"",	    "newmail",	60,	0},
 	{"",	    "orphans -s",	60,	0},
 	{" 🎶 ",    "volume",	1,	19},
 	{"",        "sbrightness",				1,	11},
