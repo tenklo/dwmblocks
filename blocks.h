@@ -1,15 +1,15 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
+	{"",	    "newmail",	300,	0},
+	{"",	    "vpnconnected",	2,	69},
 	{"; ",	    "lockerstatus",	2,	69},
-	{"",	    "newmail",	60,	0},
 	{"",	    "orphans -s",	60,	0},
 	{" 🎶 ",    "volume",	1,	19},
 	{"",        "sbrightness",				1,	11},
 	/* {"",	    "wetterstatus",	60,	0}, */
 	/* {"",	    "dbtitle dwb",	1,	19}, */
 	{"",	    "internetinfo",	    2,	21},
-	{"",	    "vpnconnected",	2,	69},
 	/* {"",	    "ssid",	    5,	20}, */
 	/* {"   ",	    "~/.local/src/dwmblocks/scripts/rootspace",	60,	18}, */
 	/* {" ",	    "~/.local/src/dwmblocks/scripts/homespace",	60,	17}, */
