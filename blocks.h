@@ -3,6 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
   {"",      "newmail",  60,     0},
 	{"",	    "vpnconnected",	2,	69},
+  {"",      "emacsclient -e \"org-mode-line-string\" | head -n 1 | cut -d'\"' -f2 | sed 's/^\s//'",     2,      69},
 	{"; ",	    "lockerstatus",	2,	69},
 	{"",	    "orphans -s",	60,	0},
 	{" 🎶 ",    "volume",	1,	19},
