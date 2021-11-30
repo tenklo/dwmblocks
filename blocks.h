@@ -7,7 +7,7 @@ static const Block blocks[] = {
 	{"; ",	    "lockerstatus",	2,	69},
 	{"",	    "orphans -s",	60,	0},
 	{" 🎶 ",    "volume",	1,	19},
-	{"",        "sbrightness",				1,	11},
+  /* {"",        "sbrightness",                         1,      11}, */
 	/* {"",	    "wetterstatus",	60,	0}, */
 	/* {"",	    "dbtitle dwb",	1,	19}, */
 	{"",	    "internetinfo",	    2,	21},
